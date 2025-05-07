@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Quiz sobre Processadores de Celular</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Quiz: Processadores de Celular</h1>
+  <form id="quizForm">
+    <div class="question">
+      <h3>1. Qual desses é um processador da Qualcomm?</h3>
+      <label><input type="radio" name="q1" value="Snapdragon"> Snapdragon</label><br>
+      <label><input type="radio" name="q1" value="Exynos"> Exynos</label><br>
+      <label><input type="radio" name="q1" value="A17 Bionic"> A17 Bionic</label><br>
+      <label><input type="radio" name="q1" value="Tensor"> Tensor</label>
+    </div>
+
+    <div class="question">
+      <h3>2. Qual empresa fabrica o chip Exynos?</h3>
+      <label><input type="radio" name="q2" value="MediaTek"> MediaTek</label><br>
+      <label><input type="radio" name="q2" value="Qualcomm"> Qualcomm</label><br>
+      <label><input type="radio" name="q2" value="Samsung"> Samsung</label><br>
+      <label><input type="radio" name="q2" value="Apple"> Apple</label>
+    </div>
+
+    <div class="question">
+      <h3>3. Qual desses processadores é desenvolvido pela Apple?</h3>
+      <label><input type="radio" name="q3" value="Snapdragon 8 Gen 2"> Snapdragon 8 Gen 2</label><br>
+      <label><input type="radio" name="q3" value="A17 Bionic"> A17 Bionic</label><br>
+      <label><input type="radio" name="q3" value="Dimensity 9200"> Dimensity 9200</label><br>
+      <label><input type="radio" name="q3" value="Exynos 2200"> Exynos 2200</label>
+    </div>
+
+    <button type="button" onclick="submitQuiz()">Enviar Respostas</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
